@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "HelveticaLogo";
+  src: url("../Helvetica Neue LT W1G 75 Bold.ttf");
+  font-weight: bold;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
@@ -46,16 +52,18 @@ hr {
 
 .title {
   display: flex;
+  font-family: "HelveticaLogo";
+
   h1 {
     font-size: 30pt;
     & {
-      background-image: linear-gradient(rgba(255, 255, 255, 255), rgba(186, 186, 186, 255));
+      background-image: linear-gradient(0deg, #bababa 0%, white 60%);
       color: transparent;
       background-clip: text;
     }
   }
   .chan {
-    background-image: linear-gradient(rgba(120, 188, 70, 255), rgba(91, 143, 53, 255));
+    background-image: linear-gradient(0deg, #5b8f35 0%, #78bc46 60%);
   }
 }
 
