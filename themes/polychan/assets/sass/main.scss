@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+
+  background: #3c3d40;
+  color: #e1dfdc;
+}
+
+footer {
+  border-top: 1px solid #2a2a2d;
+  padding-top: 1rem;
+  line-height: 0.5;
+}
+
+a {
+  color: #78bc46;
+}
+
+hr {
+  border-width: 0;
+  background-color: #2a2a2d;
+  height: 1px;
+}
+
+.container {
+  margin: 2rem 0 0;
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  > :first-child {
+    padding-right: 1rem;
+  }
+
+  h1, p {
+    margin: 0;
+  }
+}
+
+.title {
+  display: flex;
+  h1 {
+    font-size: 30pt;
+    & {
+      background-image: linear-gradient(rgba(255, 255, 255, 255), rgba(186, 186, 186, 255));
+      color: transparent;
+      background-clip: text;
+    }
+  }
+  .chan {
+    background-image: linear-gradient(rgba(120, 188, 70, 255), rgba(91, 143, 53, 255));
+  }
+}
+
+#screenshots {
+  div {
+    display: flex;
+    justify-content: center;
+    img {
+      text-align: center;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+#features {
+  ul {
+    columns: 2;
+    // list-style: none;
+    margin-left: 1rem;
+    margin-right: 0;
+    padding: 0;
+  }
+}
+
+#qna {
+  dl {
+    padding-left: 1.25rem;
+  }
+  dt {
+    margin-top: 1rem;
+  }
+  dt::before, dd::before {
+    content: "Q";
+    font-weight: 700;
+    display: block;
+    position: absolute;
+    margin-left: -1.25em;
+  }
+
+  dd {
+    margin: 0 0 .5rem 1em;
+  }
+  dd::before {
+    content: "A";
+  }
+}

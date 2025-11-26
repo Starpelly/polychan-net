@@ -1,0 +1,8 @@
+baseURL = 'https://polychan.net/'
+languageCode = 'en-us'
+title = 'Polychan'
+theme = 'polychan'
+canonifyURLs = true
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files, who cares?
