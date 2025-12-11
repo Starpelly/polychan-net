@@ -65,4 +65,4 @@ It's not available yet! But you can build it from scratch if you know how to do 
 ## Support
 Please visit the [GitHub page](https://github.com/starpelly/polychan) for issues/bugs and feature requests.
 
-You can [join the support Discord]() for quick questions. *Please do not request features or report bugs in the Discord.*
+You can [join the support Discord](https://discord.gg/5NfFeH8WdD) for quick questions. *Please do not request features or report bugs in the Discord.*
